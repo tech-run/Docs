@@ -2,6 +2,7 @@
 
 ## Usesful commands 
 ```
+nom ci
 npm start # Starts a development server.
 
 npm test # Test suite run.
