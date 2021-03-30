@@ -2,7 +2,7 @@
 
 ## Handy Docker commands 
 ```
-docker images
+docker images          # List of local images. 
 docker rmi {image_id}		# remove image
 
 docker ps -a			# show running containers 
