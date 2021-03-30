@@ -17,7 +17,7 @@ db2 "update DB2IMAGE.BATCH_STARTUP set STAGE = 'move', NUMBER = 1447585 where NA
 ```
 1. Download SQuirrel 
 2. Create a db2jcc. 
-		Driver class: com.ibm.db2.jcc.DB2Driver 
+    Driver class: com.ibm.db2.jcc.DB2Driver 
     Locate DB2Driver db2jcc.jar
-		Example URL: jdbc:db2://host:port/<alias>
+    Example URL: jdbc:db2://host:port/<alias>
 ```
