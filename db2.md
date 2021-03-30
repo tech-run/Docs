@@ -13,3 +13,11 @@ export to <file_name> of del modified by nochardel coldel| <select_statement> # 
 db2 "select * from DB2EG.BATCH_STARTUP where NAME='customer'"                                   # DB2 select command.
 db2 "update DB2IMAGE.BATCH_STARTUP set STAGE = 'move', NUMBER = 1447585 where NAME='customer'"  # DB2 update command.
 ```
+## Database connection
+```
+1. Download SQuirrel 
+2. Create a db2jcc. 
+		Driver class: com.ibm.db2.jcc.DB2Driver 
+    Locate DB2Driver db2jcc.jar
+		Example URL: jdbc:db2://host:port/<alias>
+```
