@@ -5,3 +5,7 @@
    - [k8s](k8.md)
  - javascript 
    - [npm](npm.md)
+ - CD/CI 
+   - [Chef](chef.md)
+ - Database 
+   - [DB2](db2.md) 
